@@ -171,11 +171,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyChaser
   moveSpeed: 1.5
-  attackRange: 0.7
+  attackRange: 1.2
   attackCooldown: 0.8
   attackDamage: 1
   maxHealth: 1
   wallCheckDistance: 0.8
+  sideCheckDistance: 1.2
+  sideAngle: 60
   wallLayer:
     serializedVersion: 2
     m_Bits: 64
