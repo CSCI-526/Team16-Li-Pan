@@ -17,6 +17,11 @@ public class PlayerShoot : MonoBehaviour
     private int currentAmmo;
     private bool isReloading;
 
+    public int CurrentAmmo => currentAmmo;
+    public int MagazineSize => magazineSize;
+    public bool IsReloading => isReloading;
+    public float ReloadTime => reloadTime;
+
     private Rigidbody2D rb;
 
     private void Awake()
